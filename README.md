@@ -18,8 +18,10 @@ Another threat that you are protected from is the weak or re-used passwords, bot
 
 Two big threats that a password manager DOES NOT protect you from though is: 
 
-  - from a man-in-the-mmiddle attack when the user decides to connect to the internet from a public network. 
+  - from a man-in-the-middle attack when the user decides to connect to the internet from a public network. 
   - from a malware that logs the users keystrokes. It is the user's responsibility to keep their computer malware free. 
+
+Password managers are the safest way to store sensitive data, but we must remember that the user also is responsible for his data. His actions must comply with the general online safety rules, such as do not share sensitive information with unknown sites(phishing, low security websites), do not write your passwords through links that come as emails (phishing), do not download software from unknown sources (malware, virus, ransomware) etc. 
 
     - What information is encrypted, what's not?
     
@@ -29,9 +31,10 @@ With KeePassXC and LastPass, all information inside the file is encrypted.
     
 GNU General Public License Version 3. The KeePassXC is an open source program thus it is free. 
 
-    - Where is the data stored? If in "the cloud", which country / juristiction / which companies? If on local disk, where?
+    - Where is the data stored? If in "the cloud", which country / juristiction / 
+    which companies? If on local disk, where?
     
-The passwords/data is stored on the local disk. A file with the extrention .kdbx, is created which requires a master password in order to access it. In addition, this type of PM allow the user to store the file on the cloud of their preference and gain access to it from multiple devices. It is a decentralized service, so the user has the freedom of choice where to store their file. 
+The passwords/data is stored on the local disk at a folder of the user's choice. A file with the extention .kdbx, is created which requires a master password in order to access it. In addition, this type of PM allow the user to store the file on the cloud of their preference and gain access to it from multiple devices. It is a decentralized service, so the user has the freedom of choice where to store their file. 
 
 It saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.
 
