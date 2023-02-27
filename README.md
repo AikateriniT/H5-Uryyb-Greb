@@ -52,3 +52,37 @@ ISO/IEC 18033-3: Block ciphers
 For additional security steps:
 
 Users can add Twofish or ChaCha20 encryption for an extra layer of security. It is also compatible with Yubikey (a USB multifactor authentication method) for supreme security of the KeePassXC database file. 
+
+Demonstrate the use of a password manager.
+-----------------------------------------------------------------------------------------------
+
+I will demonstrate you the use of KeePassXC because this is the one that I am using and I am familiar with. 
+
+The reason I prefer it, is because it has a clean and understandable interface and it is easy to use. 
+________________________________________________________________________________________________
+
+Let's start from the beginning though, with the first steps of installation and creating a new user. 
+
+    - Step 1: Download KeePassXC application and create a new database.
+
+https://keepassxc.org/download/
+________________________________________________________________________________________________
+Note!
+Before installing KeePassXC, you should always verify that your download matches the signature that is published alongside the release package!
+
+Warning: Please do not download unofficial packages from sources you don't trust!
+________________________________________________________________________________________________
+Open the KeePassXC app after you have successfully downloaded it and click create a new database. 
+![1](https://user-images.githubusercontent.com/113516460/221530545-43786527-a930-4919-bbcc-b589f805d1f3.JPG)
+
+After this the database generator wizard appear and you have to name your new database.
+
+![2](https://user-images.githubusercontent.com/113516460/221530973-f7796f6e-deef-4cda-9715-5904fcd46a2d.JPG)
+
+
+
+
+
+
+
+
