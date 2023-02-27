@@ -150,8 +150,24 @@ After an entry is configured with TOTP, you will see a clock icon in that entryâ
 
 ![912](https://user-images.githubusercontent.com/113516460/221542596-e0eb2dc7-b82e-4359-ba9a-5883424feb3c.JPG)
 
+    - Step 3: Setup Browser integration.
+    
+The KeePassXC-Browser extension is installed within your web browser so that you can automatically pull usernames and passwords from KeePassXC and populate them directly into website fields. It is a very useful and secure extension that enhances your productivity while using KeePassXC. With this extension, you do not need to manually copy the data from your KeePassXC database and paste it into the website fields.
 
+The KeePassXC-Browser extension is available on the following web browsers:
 
+    Google Chrome, Vivaldi, and Brave
+    Mozilla Firefox and Tor-Browser
+    Microsoft Edge
+    Chromium
+
+You can download the KeePassXC-Browser extension from your web browser. To download the KeePassXC-Browser extension, perform the following steps:
+
+Click the link corresponding to your browser:
+
+[Chrome, Chromium, Vivaldi, and Brave](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+[Mozilla Firefox and Tor-Browser](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/)
+[Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/keepassxcbrowser/pdffhmdngciaglkoonimfcmckehcpafo)
 
 
 
