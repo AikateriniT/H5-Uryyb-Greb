@@ -40,7 +40,7 @@ It saves many different types of information, such as usernames, passwords, URLs
 
     - How is the data protected?
 
-KeePassXC places controls over the access to this data so other applications cannot read it (unless they have administrative rights).
+KeePassXC places controls over the access to this data so other applications cannot read it (unless they have administrative rights). By default, KeePassXC prevents recordings and screenshots of the application window on Windows and macOS. This prevents inadvertent spillage of information during meetings and disallows other applications to capture the window contents.
 
 With these two password managers the encryption used is AES-256 The Advanced Encryption Standard (AES), also known by its original name Rijndael, is a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001.
 
@@ -58,7 +58,7 @@ Demonstrate the use of a password manager.
 
 I will demonstrate you the use of KeePassXC because this is the one that I am using and I am familiar with. 
 
-The reason I prefer it, is because it has a clean and understandable interface and it is easy to use. 
+The reason I prefer it, is because it has a clean and understandable interface and it is easy to use. It is an application that supports all operating systems (windows, macOS, Linux) and it does not have a mobile app.  
 ________________________________________________________________________________________________
 
 Let's start from the beginning though, with the first steps of installation and creating a new user. 
@@ -71,6 +71,9 @@ Note!
 Before installing KeePassXC, you should always verify that your download matches the signature that is published alongside the release package!
 
 Warning: Please do not download unofficial packages from sources you don't trust!
+
+Because KeePassXC does not allow to take screenshots for security reasons we must start the application with the --allow-screencapture command line flag.
+
 ________________________________________________________________________________________________
 Open the KeePassXC app after you have successfully downloaded it and click create a new database. 
 ![1](https://user-images.githubusercontent.com/113516460/221530545-43786527-a930-4919-bbcc-b589f805d1f3.JPG)
@@ -79,6 +82,30 @@ After this the database generator wizard appear and you have to name your new da
 
 ![2](https://user-images.githubusercontent.com/113516460/221530973-f7796f6e-deef-4cda-9715-5904fcd46a2d.JPG)
 
+By clicking next, you will get encryption settings slide, and the developers actually do not recommend at this point to change anything except the decryption timer. By choosing bigger decryption time the security increases but the time to decrypt the passwords will be longer. 
+
+![3](https://user-images.githubusercontent.com/113516460/221531398-16a97a9d-fd26-435c-9793-142632538829.JPG)
+
+Then, you will get the tab where you have to create your master password, at this step you must be extra careful. By loosing the master password you will not be able to have access to you information never again. Keep this password for your database safe. Either memorize it or note it down somewhere.
+
+![4](https://user-images.githubusercontent.com/113516460/221532732-2b9b8392-e091-4da6-89b9-1f7a0fbf5669.JPG)
+
+Click Done and you will be asked to select the location that the database file will be stored. You can save the file wherever you wish. Even in the cloud of your preference in case you want to use this database across multiple devices. It is fully encrypted at all times so unuthorized access is prevented. 
+
+    - Step 2: Storing and generating passwords.
+    
+Now that you are all set and have created your first database you are ready to store your passwords, usernames, URLs, or even important notes that have to be encrypted. You can store as many entries as you want. 
+
+![5](https://user-images.githubusercontent.com/113516460/221534425-4a2ffa21-e563-47f7-a0d9-b8a7f4109a7d.JPG)
+
+Let's start by checking a bit the homepage. 
+    A) Database - Open database, Save database, Lock database.
+    B) Entries - Create Entry, Edit Entry, Delete Selected Entries
+    C) Entry Data - Copy Username, Copy Password, Copy URL, Perform Auto-Type
+    D) Tools - Password Generator, Application Settings
+    E) Search
+    
+The toolbar provides a quick way to perform common tasks with your database. The user also through the View tab can decide whether to use a dark or a light mode. 
 
 
 
