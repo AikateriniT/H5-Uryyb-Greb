@@ -11,10 +11,13 @@ Chapter 10: Using algorythms
 Correct choice of algorithms:
 
     - Published algorithms, are a good choice in case they haven't been scrutinized yet.
-    - Manufacturer's algorithms, are also a good choice since a manufacturer has a good reputation and will not risk the good name of the entire company with weak algorithms.
-    - Private consultants, offer options of reliable algorithms since they are best equipped to provide different algorithms.
+    - Manufacturer's algorithms, are also a good choice since a manufacturer has a good reputation 
+    and will not risk the good name of the entire company with weak algorithms.
+    - Private consultants, offer options of reliable algorithms since they are best equipped to provide
+    different algorithms.
     - Governement, is another option since they always opt for citizens' good.
-    - Private initiative, means that each one can write their own algorithms based on the belief that one can write his own, as long as they have cryptographic abilities.
+    - Private initiative, means that each one can write their own algorithms based on the belief that 
+    one can write his own, as long as they have cryptographic abilities.
     
 
 
