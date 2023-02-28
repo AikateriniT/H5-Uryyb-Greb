@@ -1,8 +1,27 @@
 Uryyb Greb - Fifth homework
 ---------------------------------------------------------------------------------------------
 
-Choose a password manager. Explain: (This subtask y does not require tests with a computer if the question can be answered without them)
+Read and summarize (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary, feel free to write more if you like)
+€ Schneier 2015: Applied Cryptography: 10. Using Algorigthms: 10.1, 10.2, 10.3, 10.4 (from start until the start of "Dereferencing Keys" in 10.4)
 ---------------------------------------------------------------------------------------------
+
+Chapter 10: Using algorythms
+
+10.1 
+Correct choice of algorithms:
+
+    - Published algorithms, are a good choice in case they haven't been scrutinized yet.
+    - Manufacturer's algorithms, are also a good choice since a manufacturer has a good reputation and will not risk the good name of the entire company with weak algorithms.
+    - Private consultants, offer options of reliable algorithms since they are best equipped to provide different algorithms.
+    - Governement, is another option since they always opt for citizens' good.
+    - Private initiative, means that each one can write their own algorithms based on the belief that one can write his own, as long as they have cryptographic abilities.
+    
+
+
+
+
+Choose a password manager. Explain: (This subtask y does not require tests with a computer if the question can be answered without them)
+----------------------------------------------------------------------------------------------
 
     - What treaths does it protect against?
 
@@ -194,7 +213,26 @@ So, now that everything is set up. Lets see the status of the KeePassXC on the b
 
 ![13](https://user-images.githubusercontent.com/113516460/221552319-74405ea8-40a0-41ae-9600-7c9d83f2d43a.JPG)
 
+Encrypt and decrypt a message (you can use any tool you want, gpg is one option)
+---------------------------------------------------------------------------------------
+A problem that many users face is how to communicate securely and validate the identity of the party they are talking to. To get around this issue, GPG relies on a security concept known as public key encryption. The idea is that you can split the encrypting and decrypting stages of the transmission into two separate pieces. That way, you can freely distribute the encrypting portion, as long as you secure the decrypting portion. This would allow for a one-way message transfer that can be created and encrypted by anyone, but only be decrypted by the designated user. Another benefit of this system is that the sender of a message can “sign” the message with their private key. The public key that the receiver has can be used to verify that the signature is actually being sent by the indicated user.
 
+For this task I will use GPG in order to encrypt and decrypt a message. 
+
+Our first job is to set up the keys. 
+
+        $sudo apt-get update
+        $sudo apt-get install gnupg
+        
+To begin using GPG to encrypt your communications, you need to create a key pair. You can do this by issuing the following command:
+
+![1](https://user-images.githubusercontent.com/113516460/221990116-4cc6ac2d-8348-4e37-990e-b4c2f116ef72.JPG)
+
+At this point, gpg will generate the keys using entropy. Entropy describes the amount of unpredictability and nondeterminism that exists in a system. GPG needs this entropy to generate a secure set of keys.
+
+At this point I encountered some issue and I will try to resolve it and update it to wednesday's course. 
+
+:)
 
 
 SOURCES :globe_with_meridians:
@@ -206,6 +244,8 @@ ________________________________________________________________________________
     https://campaigns.f-secure.com/id-protection/pm/fi/?gclid=EAIaIQobChMIpKHIj8u1_QIV8AuiAx1JMAEaEAAYASAAEgIDW_D_BwE&gclsrc=aw.ds
     https://keepassxc.org/docs/KeePassXC_GettingStarted.html#_application_layout
     https://www.logmeonce.com/blog/password-management/7-benefits-of-using-password-management-software/
+    https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages
+    
 
 
 
