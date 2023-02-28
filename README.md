@@ -5,7 +5,7 @@ Read and summarize (This subtask x does not require tests with a computer. Some 
 € Schneier 2015: Applied Cryptography: 10. Using Algorigthms: 10.1, 10.2, 10.3, 10.4 (from start until the start of "Dereferencing Keys" in 10.4)
 ---------------------------------------------------------------------------------------------
 
-Chapter 10: Using algorythms
+Chapter 10: USING ALGORITHMS
 
 10.1 
 Correct choice of algorithms:
@@ -19,9 +19,30 @@ Correct choice of algorithms:
     - Private initiative, means that each one can write their own algorithms based on the belief that 
     one can write his own, as long as they have cryptographic abilities.
     
+These options have several issues, even though they look like they are suitable for different occassions. The outcome of this study is that no one should trust only one source, when it comes to security. Many "security consultants", are not familiar with very important terms of security and mainly about encryption. NSA at the moment has some of the biggest talents on encryption, but they are very secretive. 
 
+Public algorithms analyzed in this book have both possitive and negative results. Military security organizations are cryptanalyzing, and they are not interested to publish their results. Public algorithms are safer though than any other algorithm implemented in secret environments. 
 
+The question comes to, what algorithms NSA can break? 
 
+In the sphere of secrecy, none organization incl. FBI will not introduce the how-to of DES-encryption. The how-to is of -ten times bigger secret than the information stored in a hard-drive for example. The only way to make NSA admit their ability to break algorithms is to encrypt something extremely valuable, leading to public admission of decryption. 
+
+NSA like any other organization has limited resources. Meaning, they must choose wisely their targets. An assumption made here is that they prefer to solve their problems physically than in the digital world. 
+
+ALGORITHMS FOR EXPORT
+
+All algorithms exported from the US must be approved by the government. The assumption here is that all algorithms exported they have to been first broken by the NSA. Rumors about exported algorithms include:
+
+    - Leak a key bit once in a while, embedded in the ciphertext.
+    - “Dumb down” the effective key to something in the 30-bit range.
+    - Use a fixed IV, or encrypt a fixed header at the beginning of each encrypted message.
+    - Generate a few random bytes, encrypt them with the key, and then put both the plaintext and the ciphertext of those random bytes at the beginning of the encrypted message. 
+    
+PUBLIC-KEY CRYPTOGRAPHY VERSUS SYMMETRIC CRYPTOGRAPHY
+
+Public-key cryptography or symmetric cryptography?
+
+It is a continuous debate since the cryptography was invented. 
 
 Choose a password manager. Explain: (This subtask y does not require tests with a computer if the question can be answered without them)
 ----------------------------------------------------------------------------------------------
