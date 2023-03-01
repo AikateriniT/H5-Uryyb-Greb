@@ -36,13 +36,23 @@ All algorithms exported from the US must be approved by the government. The assu
     - Leak a key bit once in a while, embedded in the ciphertext.
     - “Dumb down” the effective key to something in the 30-bit range.
     - Use a fixed IV, or encrypt a fixed header at the beginning of each encrypted message.
-    - Generate a few random bytes, encrypt them with the key, and then put both the plaintext and the ciphertext of those random bytes at the beginning of the encrypted message. 
+    - Generate a few random bytes, encrypt them with the key, and then put both the plaintext and 
+    the ciphertext of those random bytes at the beginning of the encrypted message. 
     
 PUBLIC-KEY CRYPTOGRAPHY VERSUS SYMMETRIC CRYPTOGRAPHY
 
 Public-key cryptography or symmetric cryptography?
 
-It is a continuous debate since the cryptography was invented. 
+Utility of public algoritmhs is a continuous debate since the cryptography was invented. Needham and Schroeder camy to the conclusion that the number and length of messages are greater with public-key algorithms than the symmetric algorithms. The symmetric algorithm was more efficient than the public-key algorithm. 
+
+According to Whitfield Diffie:
+
+Public-key cryptography is a new form of cryptosystem. The critisism of this system here is based both on security and performance. In comparison of the RSA and the DES system, the RSA was far more sufficient in terms of performance and DES required bigger keys. The need to build hybrid systems emerged. Public-key cryptography and symmetric cryptography are two completely different things. 
+
+    - Symmetric cryptography is best for encrypting data. It is orders of magnitude faster and is 
+    not susceptible to chosen-ciphertext attacks. It is best for key management and a myriad of protocols.
+    
+    
 
 Choose a password manager. Explain: (This subtask y does not require tests with a computer if the question can be answered without them)
 ----------------------------------------------------------------------------------------------
