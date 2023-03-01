@@ -52,6 +52,21 @@ Public-key cryptography is a new form of cryptosystem. The critisism of this sys
     - Symmetric cryptography is best for encrypting data. It is orders of magnitude faster and is 
     not susceptible to chosen-ciphertext attacks. It is best for key management and a myriad of protocols.
     
+10.3 ENCRYPTING COMMUNICATIONS CHANNELS
+
+Let's see a bit in practical terms how to encrypt messages. Theoretically encryption can happen at any layer of OSI communications model but practically it happens to the lowest layers or at the highest levels. 
+
+There are two types of encryption depending on which layer it happens:
+
+    Link-by-link encryption
+When it happens at the lowest layers. All the information goes through a data link which is encrypted.  
+
+    End-to-end encryption
+When it happens at the highest layers. Data is encrypted selectively and remain encrypted until it reaches the recepient who is the only one with the ability to decrypt the message. 
+
+LINK-BY-LINK ENCRYPTION
+
+It is the easiest way to add encryption 
     
 
 Choose a password manager. Explain: (This subtask y does not require tests with a computer if the question can be answered without them)
